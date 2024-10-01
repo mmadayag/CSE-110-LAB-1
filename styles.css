@@ -1,0 +1,150 @@
+
+    .div-2 {
+        background-color: rgb(245, 240, 230);
+        display: inline-block;
+        width: 100%;
+        
+    }
+    
+    .div-3 {
+        background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+        display: inline-block;
+        width: 100%;
+        
+    }
+    
+    .div-4 {
+        background-color: rgb(245, 240, 230);
+        display: inline-block;
+        width: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: white; 
+        max-width: 400px;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        padding: 8px;
+        background-color: white;
+        display: inline-block;
+    }
+
+    li a:hover {
+        background-color: #182b49;
+        color: white;
+    }  
+
+    #navbar {
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        background-color: white;
+        font-size: 28px;
+        width: 100%;
+        scroll-margin-top: 157px;
+    }
+
+    .wrapper {
+        display: grid;
+        gap: 25px;
+        max-height: 500px;
+        background-color: rgb(245, 240, 230);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        color: white;
+        font-size: 25px;
+    }
+
+    .one {
+        grid-column: 1;
+        background-color: #182b49;
+        width: 100%;
+    }
+
+    .two {
+        grid-column: 2;
+        background-color: #182b49;
+        width: 100%;
+    }
+
+    .three {
+        grid-column: 3;
+        background-color: #182b49;
+        width: 100%;
+    }
+
+    .four {
+        grid-column: 4;
+        background-color: #182b49;
+        width: 100%;
+    }
+
+    #S1 {
+        scroll-margin-top: 157px;
+    }
+
+    #S2 {
+        scroll-margin-top: 157px;
+    }
+
+    #S3 {
+        scroll-margin-top: 157px;
+    }
+
+    #image1 {
+        max-width: 100%;
+    }
+
+    #image2 {
+        max-width: 100%;
+    }
+
+    #image3 {
+        max-width: 100%;
+    }
+
+    @media screen and (max-width: 800px) {
+        #sections {
+            display: none;
+        }
+
+        #image1 {
+            max-width: 75%;
+        }
+
+        #S1 {
+            font-size: 24px;
+        }
+    
+        #S2 {
+            font-size: 24px;
+        }
+    
+        #S3 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+
+        .wrapper {
+            grid-template-columns: 1fr 1fr; 
+            font-size: 20px;
+        }
+
+        .one, .two, .three, .four {
+            grid-column: auto;
+        }
+    
+    }
